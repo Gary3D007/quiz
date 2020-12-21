@@ -1,0 +1,3 @@
+<app-english-word [englishWord]="currentElement.en"></app-english-word>
+<app-choice [options]="[currentElement.rusCorr, currentElement.rusErr]"></app-choice>
+<button (click)="changeElement()" type="button" [disabled]="isLastElement">Next</button>
